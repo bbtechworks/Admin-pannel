@@ -1,0 +1,265 @@
+
+/* Main Card */
+.card {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background: #031123;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 14px #00285D;
+    margin: auto;
+}
+.card:hover {
+    box-shadow: 0 0 14px 0 rgba(0, 66, 154, 1);
+}
+
+/* Logo Section */
+.logo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+}
+
+.shop-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Content */
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Description */
+.description h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.description p {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0 0;
+}
+
+/* Stats Section */
+.stats-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.stat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stat-header h5 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.info-btn {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Stats Container */
+.stats-container {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+/* Individual Stat */
+.stat {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+    border-radius: 50%;
+}
+
+.bg-green {
+    background: #28a745;
+}
+
+.bg-red {
+    background: #dc3545;
+}
+
+.bg-blue {
+    background: #007bff;
+}
+
+.amount {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.label {
+    font-size: 14px;
+    color: #555;
+}
+
+.trend {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.text-green {
+    color: #28a745;
+}
+
+.text-red {
+    color: #dc3545;
+}
+
+.balance-card {
+    display: flex;
+    align-items: center;
+    height: 120px;
+    background: rgba(3, 94, 207, 0.45);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+}
+
+.balance-img {
+    max-height: 80px;
+    width: auto;
+    margin-left: 10px;
+}
+
+.balance-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 15px;
+}
+
+.balance-amount {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.balance-label {
+    font-size: 14px;
+    color: #ddd;
+}
+
+/* ####### */
+
+.total-report-card {
+    height: 230px;
+    width: 100%;
+    height: auto;
+    background-color: #031123;
+    border-radius: 6px;
+    box-shadow: 0px 3px 14px #00285D;
+    padding: 20px;
+  }
+  .total-report-card:hover{
+    box-shadow: 0 0 14px 0 rgba(0, 66, 154, 1);
+  }
+  
+  .total-report-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .date-range {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .stats {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .stat-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #113057;
+    padding: 10px;
+    border-radius: 6px;
+  }
+  
+  .stat-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .icon {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .amount {
+    font-weight: bold;
+  }
+  
+  .change {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .positive {
+    color: green;
+  }
+  
+  .negative {
+    color: red;
+  }
+  
+  .btn {
+    display: block;
+    text-align: center;
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    margin-top: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background: #0056b3;
+  }
+  

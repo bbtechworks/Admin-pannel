@@ -1,0 +1,16 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Space between items */
+  }
+  
+  .wrapper > div:nth-child(1),
+  .wrapper > div:nth-child(3) {
+    flex: 1 1 60%; /* div 1 and div 3 will take up 65% */
+  }
+  
+  .wrapper > div:nth-child(2),
+  .wrapper > div:nth-child(4) {
+    flex: 1 1 30%; /* div 2 and div 4 will take up 35% */
+  }
+  

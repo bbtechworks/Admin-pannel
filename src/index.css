@@ -37,7 +37,7 @@ body {
 }
 
 .main-inner {
-    width: 70%;
+    width: 82%;
     margin-top: 20px;
     gap: 20px;
     display: flex;
@@ -73,17 +73,5 @@ body {
 }
 
 .SalesBarChart:hover {
-    box-shadow: 0 0 14px 0 rgba(0, 66, 154, 1);
-}
-
-.Total_report {
-    height: 230px;
-    width: 100%;
-    background-color: #031123;
-    border-radius: 6px;
-    box-shadow: 0px 3px 14px #e6e8eb;
-}
-
-.Total_report:hover {
     box-shadow: 0 0 14px 0 rgba(0, 66, 154, 1);
 }

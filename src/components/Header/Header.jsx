@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowsRotate } from '@fortawesome/free-solid-svg-icons';
 import './Header.css';
 
-function Header() {
+function Header({ title }) {
   const updateDateTime = () => {
     const dateElement = document.getElementById('current-date');
     if (dateElement) {
@@ -19,7 +19,7 @@ function Header() {
 
   return (
     <div id="header-section-container" className="header-section">
-      <h2 id="page-title">Products Grid</h2>
+      <h2 id="page-title">{title}</h2>
       <div className="header-actions">
         <span className="refresh-text">Data Refresh</span>
         <button id="refresh-btn" className="refresh-btn">
@@ -33,4 +33,4 @@ function Header() {
   );
 }
 
-export default Header; // Ensure this is a default export
+export default Header;
