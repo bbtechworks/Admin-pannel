@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import './Sidebar.css';
 
 function Sidebar() {
@@ -25,12 +26,12 @@ function Sidebar() {
               <span className="arrow">▸</span>
             </button>
             <ul className="submenu">
-              <li><a href="#">Sales Analytics</a></li>
-              <li><a href="#">Sellers List</a></li>
-              <li><a href="#">Sellers Table</a></li>
-              <li><a href="#">Sellers Grid</a></li>
-              <li><a href="#">Seller Profile</a></li>
-              <li><a href="#">Revenue by Period</a></li>
+              <li><Link to="/sales-analytics">Sales Analytics</Link></li>
+              <li><Link to="/sellers-list">Sellers List</Link></li>
+              <li><Link to="/sellers-table">Sellers Table</Link></li>
+              <li><Link to="/sellers-grid">Sellers Grid</Link></li>
+              <li><Link to="/seller-profile">Seller Profile</Link></li>
+              <li><Link to="/revenue-by-period">Revenue by Period</Link></li>
             </ul>
           </div>
 
@@ -42,60 +43,60 @@ function Sidebar() {
               <span className="arrow">▸</span>
             </button>
             <ul className="submenu">
-              <li><a href="#">Top Products</a></li>
-              <li><a href="#">Products Grid</a></li>
-              <li><a href="#">Products Management</a></li>
-              <li><a href="#">Product Editor</a></li>
-              <li><a href="#">Banners</a></li>
+              <li><Link to="/top-products">Top Products</Link></li>
+              <li><Link to="/products-grid">Products Grid</Link></li>
+              <li><Link to="/products-management">Products Management</Link></li>
+              <li><Link to="/product-editor">Product Editor</Link></li>
+              <li><Link to="/banners">Banners</Link></li>
             </ul>
           </div>
 
           {/* Orders */}
           <div className="menu-item">
-            <a href="#">
+            <Link to="/orders">
               <img src="/assets/icons/dark/orders.png" alt="Orders" />
               <span>Orders</span>
-            </a>
+            </Link>
           </div>
 
           {/* Statistics */}
           <div className="menu-item">
-            <a href="#">
+            <Link to="/statistics">
               <img src="/assets/icons/dark/statistics.png" alt="Statistics" />
               <span>Statistics</span>
-            </a>
+            </Link>
           </div>
 
           {/* Reviews */}
           <div className="menu-item">
-            <a href="#">
+            <Link to="/reviews">
               <img src="/assets/icons/dark/ratings.png" alt="Reviews" />
               <span>Reviews</span>
-            </a>
+            </Link>
           </div>
 
           {/* Customers */}
           <div className="menu-item">
-            <a href="#">
+            <Link to="/customers">
               <img src="/assets/icons/dark/customers.png" alt="Customers" />
               <span>Customers</span>
-            </a>
+            </Link>
           </div>
 
           {/* Transactions */}
           <div className="menu-item">
-            <a href="#">
+            <Link to="/transactions">
               <img src="/assets/icons/dark/transactions.png" alt="Transactions" />
               <span>Transactions</span>
-            </a>
+            </Link>
           </div>
 
           {/* Settings */}
           <div className="menu-item">
-            <a href="#">
+            <Link to="/settings">
               <img src="/assets/icons/dark/settings.png" alt="Settings" />
               <span>Settings</span>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
