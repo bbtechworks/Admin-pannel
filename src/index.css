@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#root {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+body {
+    background-color: #00193b;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: "Archivo", serif;
+}
+
+.main-container {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+
+}
+
+.main-inner {
+    width: 70%;
+    margin-top: 20px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.shope_point {
+    height: 200px;
+    width: 100%;
+    background-color: #031123;
+    border-radius: 6px;
+    box-shadow: 0px 3px 14px #00285D;
+}
+
+.shope_point:hover {
+    box-shadow: 0 0 14px 0 rgba(0, 66, 154, 1);
+}
+
+
+.chart {
+    display: flex;
+    gap: 20px;
+}
+
+.SalesBarChart {
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+    background-color: #031123;
+    border-radius: 8px;
+    box-shadow: 0px 3px 14px #00285D;
+    padding: 20px;
+}
+
+.SalesBarChart:hover {
+    box-shadow: 0 0 14px 0 rgba(0, 66, 154, 1);
+}
+
+.Total_report {
+    height: 230px;
+    width: 100%;
+    background-color: #031123;
+    border-radius: 6px;
+    box-shadow: 0px 3px 14px #00285D;
+}
+
+.Total_report:hover {
+    box-shadow: 0 0 14px 0 rgba(0, 66, 154, 1);
+}

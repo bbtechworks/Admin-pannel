@@ -1,0 +1,104 @@
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    max-width: 400px;
+    position: relative;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid #3A4B63;
+    background: #08192D;
+    color: white;
+    border-radius: 8px;
+    outline: none;
+}
+
+.search-btn {
+    position: absolute;
+    right: 10px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search-btn i{
+    color: #4f89fc;
+    
+}
+
+.search-container input:focus{
+    color: #ffffff;
+    border: 1px solid #4f89fc;
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon,
+.profile-icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.notifications,
+.messages {
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    top: -7px;
+    right: -7px;
+    background: #ff5470;
+    color: white;
+    font-size: 9px;
+    border-radius: 100px;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #00193b;
+}
+
+.badge_msg {
+    position: absolute;
+    top: -7px;
+    right: -7px;
+    background: #00ba9d;
+    color: white;
+    font-size: 9px;
+    border-radius: 100px;
+    
+    border: 2px solid #00193b;
+    width: 10px;
+    height: 10px;
+}
+
+
+.profile{
+    background-color: #4f89fc;
+    border-radius: 100px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.profile i{
+    color: #031123;
+}
