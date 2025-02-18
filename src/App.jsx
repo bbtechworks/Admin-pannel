@@ -4,16 +4,14 @@ import Sidebar from "./components/SideBar/Sidebar";
 import TopNav from "./components/TopNav/TopNav";
 import SalesAnalytics from './pages/Dashboard/SalesAnalytics';
 import ProductEditor from './pages/Products/ProductEditor';
-import Dashboard from "./pages/Dashboard/Dashborad";
+import RevenueByPeriod from "./pages/Dashboard/RevenueByPeriod";  // Adjusted import path
+;
 import './index.css';
 
 function App() {
   return (
     <Router>
       <div className="main-container">
-      <div>
-      <Dashboard />
-    </div>
         <Sidebar />
         <div className="main-inner">
           <TopNav />
@@ -21,6 +19,7 @@ function App() {
             <Routes>
               <Route path="/sales-analytics" element={<SalesAnalytics />} />
               <Route path="/product-editor" element={<ProductEditor />} />
+              <Route path="/revenue-by-period" element={<RevenueByPeriod />} />
               {/* Add more routes as needed */}
             </Routes>
           </div>

@@ -1,7 +1,8 @@
 import { LineChart, Line, PieChart, Pie, Cell, ResponsiveContainer, Tooltip } from 'recharts';
-import { Card } from '@/components/ui/card';
-import { Progress } from '@/components/ui/progress';
-import { Button } from '@/components/ui/button';
+import { Card } from '../../components/ui/card';
+import { Progress } from '../../components/ui/progress';
+import { Button } from '../../components/ui/button';
+
 
 const salesData = [
   { quarter: 'Q1', 2022: 12000, 2023: 8000 },
