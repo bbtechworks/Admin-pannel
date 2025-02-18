@@ -1,4 +1,7 @@
 import React from 'react';
+import Card from './components/ui/card';  // Example
+import Progress from './components/ui/progress';  // Example
+import Button from './components/ui/button'; 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Sidebar from "./components/SideBar/Sidebar";
 import TopNav from "./components/TopNav/TopNav";
