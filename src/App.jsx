@@ -4,7 +4,7 @@ import Sidebar from "./components/SideBar/Sidebar";
 import TopNav from "./components/TopNav/TopNav";
 import SalesAnalytics from './pages/Dashboard/SalesAnalytics';
 import ProductEditor from './pages/Products/ProductEditor';
-import Dashboard from "./pages/Dashboard/Dashboard";
+import Dashboard from "./pages/Dashboard/Dashborad";
 import './index.css';
 
 function App() {
