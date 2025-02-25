@@ -5,7 +5,6 @@ import TopNav from "./components/TopNav/TopNav";
 import SalesAnalytics from './pages/Dashboard/SalesAnalytics';
 import ProductEditor from './pages/Products/ProductEditor';
 import RevenueByPeriod from "./pages/Dashboard/RevenueByPeriod";  // Adjusted import path
-;
 import './index.css';
 
 function App() {
